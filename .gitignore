@@ -1,0 +1,7 @@
+lua-*/src/lua
+lua-*/src/luac
+lua-*/src/.SYMTAB
+*.o
+*.a
+*.so
+bin/

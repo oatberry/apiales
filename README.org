@@ -1,0 +1,4 @@
+* Apiales - a sillyC compiler
+A compiler for a C-like language to a RISCV-like architecture. Built for my own learning, made with love and caffeine in Fall of 2021.
+** Que?
+This is written in [[https://fennel-lang.org][Fennel]], a tiny lisp that compiles to (and maintains the semantics of) Lua. I've included the source Fennel 1.0 and Lua 5.4. A simple ~make~ will compile both of them. All that's needed to to build everything is ~make~ and a copy of GCC.

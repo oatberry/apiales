@@ -1,0 +1,15 @@
+image: debian/sid
+packages:
+  - lua5.1
+  - lua5.2
+  - lua5.3
+  - lua5.4
+  - luajit
+  - make
+  - git
+  - netcat-openbsd
+sources:
+  - https://git.sr.ht/~technomancy/fennel
+tasks:
+  - build: IRC_CHANNEL="#fennel" make -C fennel ci
+
